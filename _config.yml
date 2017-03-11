@@ -6,22 +6,23 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Awesome Site Title
-email: your-email@domain.com
+title: Park Out
+email: wonkeun6@gmail.com
 description: >
-  Awesome site description here
+  박근혜 전 대통령의 탄핵 이후 60일을 기록합니다.
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+paginate:	60 # The number of posts to show per page on your homepage
 
-name: 'Your Name'
+name: 'WangKi'
 bio: >
   Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
   Ne solet nostrum complectitur pri, vis ut inani populo.
 author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username:
+facebook_username:
+github_username:  wangki
 
 # Google Analytics
 analytics_id: ""
