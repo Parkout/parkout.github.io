@@ -33,6 +33,9 @@ analytics_id: ""
 # Build settings
 markdown: kramdown
 
+#fill in disqus shortname to use disqus
+disqus: wangki
+
 kramdown:
   parse_block_html: true
 
