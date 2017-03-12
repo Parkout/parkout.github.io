@@ -34,7 +34,7 @@ analytics_id: ""
 markdown: kramdown
 
 #fill in disqus shortname to use disqus
-disqus: wangki
+disqus: parkoutkorea
 
 kramdown:
   parse_block_html: true
