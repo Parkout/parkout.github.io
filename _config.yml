@@ -15,7 +15,7 @@ description: >
   박근혜 전 대통령의 탄핵 이후 60일을 기록합니다.
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://parkoutkorea.com" # the base hostname & protocol for your site
 paginate:	60 # The number of posts to show per page on your homepage
 permalink: /:title
 future: false
