@@ -272,7 +272,8 @@ body {
 
   .post-content {
     width: 100%;
-    font-family: $font-serif;
+    //font-family: $font-serif;
+    font-family: $font-sans;
     color: #333333;
     min-height:600px;
     h1, h2, h3 {
