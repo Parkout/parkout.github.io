@@ -72,7 +72,7 @@ comments: true
                 layout="responsive"
                 sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
                 resizable
-                src="https://disqus-for-wangki.github.io/amp.html?shortname=parkoutkorea&url={{ site.url }}{{ page.id }}">
+                src="https://disqus-for-wangki.github.io/amp.html?shortname=parkoutkorea&url={{page.title | cgi_escape}}">
     <div overflow tabindex=0 role=button aria-label="Disqus Comments">Disqus Comments</div><!-- Required by AMP as a fallback as pointed out here: https://github.com/disqus/disqus-install-examples/issues/3#issue-177942264 -->
     </amp-iframe>
 
