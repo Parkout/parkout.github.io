@@ -64,59 +64,72 @@ body {
   width: 100%;
   max-width: 700px;
   margin: 16px auto 0 auto;
+  font-size: 25px;
   @include box-sizing(border-box);
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
 
   .title {
-      display: block;
-      position: absolute;
-      top: 10px;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 50px;
-      line-height: 30px;
-
-      a {
-        text-decoration: none;
-        color: #333333;
-        &:hover {
-          color: #333333;
-        }
-      }
-  }
-
-
-}
-
-.blog-header {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-  @include box-sizing(border-box);
-
-  .blog-title {
-    margin-bottom: 8px;
-    font-size: 50px;
+    display: block;
+    position: absolute;
+    top: 10px;
     font-weight: 700;
-    letter-spacing: -2px;
-    outline: 0;
-    line-height: 50px;
-    word-break: break-word;
-    color: #333333;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 30px;
+
   }
-  .blog-description {
-    font-size: 28px;
-    margin: 0 0 20px;
-    padding: 0;
-    line-height: 1.2;
-    color: #666666;
-    font-weight: 300;
+  a:link{
+    text-decoration: none;
+    color: #000;
+    border-color: gainsboro;
+    border: solid 3px;
+
   }
+  a:visited{
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  //a {
+  //text-decoration: none;
+        //color: #333333;
+        //&:hover {
+          //color: #333333;
+        //}
+      //}
+
 }
+
+//.blog-header {
+//  width: 100%;
+//  max-width: 700px;
+//  margin: 0 auto;
+//  position: relative;
+//  padding: 0;
+//  @include box-sizing(border-box);
+//
+//  .blog-title {
+//    margin-bottom: 8px;
+//    font-size: 50px;
+//    font-weight: 700;
+//    letter-spacing: -2px;
+//    outline: 0;
+//    line-height: 50px;
+//    word-break: break-word;
+//    color: #333333;
+//  }
+//  .blog-description {
+//    font-size: 28px;
+//    margin: 0 0 20px;
+//    padding: 0;
+//    line-height: 1.2;
+//    color: #666666;
+//    font-weight: 300;
+//  }
+//}
 
 .content {
   width: 100%;
