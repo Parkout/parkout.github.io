@@ -29,7 +29,7 @@ facebook_username:
 github_username:  wangki
 
 # Google Analytics
-analytics_id: ""
+analytics_id: "UA-93560728-1"
 
 # Build settings
 markdown: kramdown
